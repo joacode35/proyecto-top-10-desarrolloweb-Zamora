@@ -1,0 +1,14 @@
+// selectores comunes
+* {
+  box-sizing: border-box;
+  font-family: $mainFont;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s linear;
+}
+/*Ends universal settings*/
+
+body {
+  background-color: $blackC;
+  background-attachment: fixed;
+}

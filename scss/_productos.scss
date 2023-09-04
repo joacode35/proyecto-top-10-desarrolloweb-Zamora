@@ -1,0 +1,83 @@
+/* Start productos*/
+.search-box {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 20rem;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.button-search {
+  margin: 10px;
+}
+
+.container {
+  padding: 15px 9%;
+  padding-bottom: 100px;
+  .heading {
+    text-align: center;
+    padding-bottom: 5%;
+    color: $whiteC;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: $textXl;
+  }
+}
+
+.container .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+  .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    img {
+      height: 14rem;
+    }
+    h2 {
+      color: $blackC;
+      font-size: 22px;
+      padding: 10px 0;
+    }
+    h3 {
+      color: $blackC;
+    }
+    p {
+      color: $blackC;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    .old-price {
+      text-decoration: line-through;
+    }
+    .new-price {
+      color: $mainColor;
+    }
+    .btn {
+      margin-top: 10px;
+      display: inline-block;
+      background: $mainColor;
+      color: $whiteC;
+      font-size: 17px;
+      border-radius: 5px;
+      padding: 8px 25px;
+    }
+    .btn:hover {
+      letter-spacing: 1px;
+    }
+    :hover {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.03);
+    }
+  }
+}
+/* Ends productos*/

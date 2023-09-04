@@ -1,0 +1,123 @@
+/* Start contacto*/
+.contact-title {
+  padding: 50px 50px;
+  color: $whiteC;
+  background-color: $blackC;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    font-size: $textXl;
+    border-bottom: $mainColor solid;
+  }
+}
+
+.form-area {
+  padding-top: 7%;
+}
+
+.row.single-form {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-image: url(../img/contacto/chase-kinney-fmqblyhd2hu-unsplash.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 98px;
+  h2 {
+    color: $whiteC;
+    font-weight: 500;
+    font-size: 48px;
+    span {
+      font-weight: 100;
+    }
+  }
+}
+
+.single-form {
+  background-color: #fff;
+}
+
+.right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 70px 100px;
+  position: relative;
+  i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+  }
+  button {
+    border: none;
+    border-radius: 0;
+    background: $mainColor;
+    width: 180px;
+    color: #fff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}
+
+.form-control {
+  border: 2px solid #000;
+}
+
+.right button:hover {
+  background-color: $mainLite;
+}
+
+.news-info {
+  color: $whiteC;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8%;
+}
+
+.news-box {
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px #abdcdf, -5px -5px 25px #abdcdf;
+  background-color: $whiteC;
+  input {
+    width: 28rem;
+    font-size: 18px;
+    color: $blackC;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+  }
+  button {
+    color: $whiteC;
+    padding: 15px 20px;
+    border: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: $mainColor;
+    cursor: pointer;
+    :hover {
+      background-color: $mainLite;
+    }
+  }
+}
+
+/* Ends contacto*/

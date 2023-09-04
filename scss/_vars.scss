@@ -1,0 +1,44 @@
+// variables globales
+$blackC: #000000;
+$whiteC: #eef1f8;
+$mainColor: #00ab5b;
+$mainLite: #3edf4b;
+$plusColor: #fff024;
+$secondaryColor: #39456c;
+$tertiaryColor: #adbcdf;
+$assisColor: #3363ff;
+
+// fonts
+$mainFont: "poppins", sans-serif;
+
+// weight
+$textThin: 100;
+$textExtralight: 200;
+$textLight: 300;
+$textRegular: 400;
+$textMedium: 500;
+
+// sizes
+$textSm: 0.8em;
+$textMd: 1em;
+$textLg: 2em;
+$textXl: 3em;
+
+// mixins
+
+// breakpoint map
+$breakpoint: (
+  "xs": "max-width:575.98px",
+  "sm": "min-width: 576px) and (max-width: 767.98px",
+  "md": "min-width: 768px) and (max-width: 991.98px",
+  "lg": "min-width: 992px) and (max-width: 1199.98px",
+  "xl": "min-width: 1200px) and (max-width: 1399.98px",
+  "xxl": "(min-width: 1400px",
+);
+
+@mixin responsive($user-value) {
+  $my-map: map-get($breakpoint, $user-value);
+  @media ($my-map) {
+    @content;
+  }
+}

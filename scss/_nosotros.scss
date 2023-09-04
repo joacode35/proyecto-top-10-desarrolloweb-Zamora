@@ -1,0 +1,78 @@
+/* Start nosotros*/
+.team-title {
+  padding: 50px 50px;
+  color: $whiteC;
+  background-color: $blackC;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    font-size: $textXl;
+    border-bottom: $mainColor solid;
+  }
+}
+
+.team {
+  width: 100%;
+  height: 100%;
+  background: $blackC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 10%;
+}
+
+.team-content {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.boss-box {
+  padding: 16px;
+  background: #418a68;
+  border-radius: 15px;
+  transition: all 0.38s ease;
+  h2 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: $whiteC;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  :hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+}
+
+.icons i {
+  display: inline-block;
+  color: $whiteC;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: all 0.38s ease;
+  :hover {
+    transform: scale(1.2);
+  }
+}
+
+/* Ends nosotros*/

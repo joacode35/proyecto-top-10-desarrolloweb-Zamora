@@ -1,0 +1,21 @@
+.footer-title {
+  color: $mainColor;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: $whiteC;
+}
+
+/*Ends footer*/
+
+.assistant {
+  position: fixed;
+  font-size: 4em;
+  right: 25px;
+  bottom: 0px;
+  color: $assisColor;
+}
+
+/* Ends fixed position icon*/

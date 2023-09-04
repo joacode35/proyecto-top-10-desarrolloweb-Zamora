@@ -1,0 +1,93 @@
+/* Start servicios*/
+.service-title {
+  padding: 50px 50px;
+  color: $whiteC;
+  background-color: $blackC;
+  text-align: center;
+  h1 {
+    display: inline-block;
+    font-size: $textXl;
+    border-bottom: $mainColor solid;
+  }
+}
+
+.stack-1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: $blackC;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.info-service {
+  height: 60%;
+  width: 60%;
+  color: $whiteC;
+  padding-left: 10%;
+  padding-right: 16%;
+  h2 {
+    padding-left: 1%;
+    font-size: 6em;
+  }
+  p {
+    padding-left: 2%;
+    font-size: 1.4em;
+    padding-bottom: 3%;
+  }
+  ul li {
+    font-size: 1.2em;
+    list-style-type: disc;
+  }
+  ul li::marker {
+    font: 1.2em;
+    color: $plusColor;
+  }
+  h2 span {
+    color: $plusColor;
+  }
+}
+
+.service-1 {
+  height: 40rem;
+  width: 30rem;
+  margin-right: 10%;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  background-color: $mainColor;
+  z-index: 0;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+  ::before {
+    content: "";
+    height: 200%;
+    width: 200%;
+    position: absolute;
+    background: conic-gradient(
+      #fd004c,
+      #fe9000,
+      #fff024,
+      #3edf4b,
+      #3363ff,
+      #b102b7,
+      #fd004c
+    );
+    left: -30%;
+    top: -50%;
+    animation: spin 5s infinite linear;
+  }
+  img {
+    position: relative;
+    width: 93.5%;
+    height: 91.5%;
+    top: 4.5%;
+    left: 3.2%;
+    border-radius: 0.5rem;
+    padding-bottom: 2px;
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+/* Ends servicios*/
